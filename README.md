@@ -1,5 +1,7 @@
 # Predykcja niewypłacalności klientów kart kredytowych
 
+*English:* Course project for Introduction to Machine Learning at Warsaw University of Technology (winter 2026/27). The task is to predict the probability that a credit card client will default on the next payment, using a modified version of the UCI "Default of Credit Card Clients" dataset. So far: EDA and a tuned decision tree (ROC AUC 0.754 on the validation set). Pipeline, other model families and the final model will be added in the next milestones. The rest of the documentation, the notebooks and the reports are in Polish.
+
 Projekt na Wstęp do Uczenia Maszynowego (PW, semestr zimowy 2026/27). Zadanie to klasyfikacja binarna: na podstawie danych klienta i historii spłat z ostatnich 6 miesięcy trzeba przewidzieć prawdopodobieństwo, że klient nie spłaci zadłużenia w kolejnym miesiącu (klasa 1). Wynikiem końcowym jest wektor prawdopodobieństw dla zbioru testowego.
 
 ## Dane
